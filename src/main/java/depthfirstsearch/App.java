@@ -60,7 +60,7 @@ public class App {
                 for (int parentNumber = 1; parentNumber <= numberOfParent; parentNumber++) {
                     if (stringTokenizer.hasMoreTokens()) {
                         int parentClassNumber = Integer.parseInt(stringTokenizer.nextToken());
-                        System.out.println("Class=" + childClassNumber + ", parent=" + parentClassNumber);
+//                        System.out.println("Class=" + childClassNumber + ", parent=" + parentClassNumber);
                         this.registerNode(rootNode, childClassNumber, parentClassNumber);
                     }
                 }
